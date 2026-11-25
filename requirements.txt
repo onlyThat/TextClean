@@ -1,0 +1,4 @@
+# 运行：仅需 Python 标准库。以下为可选增强 / 打包依赖
+tkinterdnd2>=0.4.2      ; 可选：支持把 txt 文件拖进窗口
+pyinstaller>=6.0        ; 打包 exe
+pillow>=9.0             ; 生成图标

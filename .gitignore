@@ -1,0 +1,22 @@
+# PyInstaller 构建产物
+build/
+dist/
+*.spec
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行 / 测试产物
+tests/_tmp_*.txt
+build_log.txt
+iscc_log.txt
+textclean-error.log
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
